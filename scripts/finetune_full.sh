@@ -10,6 +10,7 @@ IDENTIFIER_NAME="sks11df" # arbitrary word without meaning
 SUBJECT_NAME="Dali" # 1st column value in https://github.com/google/dreambooth/blob/main/dataset/prompts_and_classes.txt#L1-L33
 CLASS_NAME="dog" # 2nd column value in https://github.com/google/dreambooth/blob/main/dataset/prompts_and_classes.txt#L1-L33
 
+/data/dreambooth_dataset/Dali
 DATA_DIR="./data/dreambooth_dataset/$SUBJECT_NAME"
 CLASS_DIR="./results_ft/cls_img/$CLASS_NAME"
 OUTPUT_DIR="./results_ft/full/$SUBJECT_NAME/SD1_4" # please adjust it if needed
